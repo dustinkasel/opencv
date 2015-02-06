@@ -1,3 +1,8 @@
+# OpenCV fork for FirePick Delta / FireSight - Currently performs windows cross-compile and auto-deploys.
+# .travis.yml script by Neil Jansen / njansen1@gmail.com with cross-compiling help from Armin van der Togt and others.
+# 2014-11-27: Initial commit
+# 2015-02-05: Starting process of adding in linux cross-compile via build matrix
+
 language: cpp
 compiler:
   - gcc
