@@ -23,9 +23,9 @@ deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure: h0aZSLt2vyiX014QKt6b4A02GTBl6F8ZZB50njk0UMJbbqSkJjNX6NYXIg3BHsjU7lD9TMIeNP5ZUuDe5GrX1bnyvf/kstC+1xJ7B2xQPTAgh52vG8q37ozNPR26rlJIqf1g7ZFdtQERYpm5ZuDfKA9KKXMtyl14sldd8I+VzMg=
+    secure: rA2xeLl0ntVnI+lYeb+lAYkUKxI6aJteFinXilMHk3WyEa06i70snzXTUc78ch+5FkO6ryZf5hW9dPku57d1zkZHRAUKXq/qR9Q3Q7q1eK3cvHhYW54zKcwsalpsYMa0FI9c20QsgEnPoN4+50Vh0ObzM0Pp6F9qjr29fv1/2Xs=
   file: opencv.zip
   on:
     tags: true
     repo: firepick-delta/opencv
-    branch: mingw-w64
+    branch: heads/mingw-w64
